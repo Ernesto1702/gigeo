@@ -7826,7 +7826,7 @@ body {
     background-color: #79dee7; }
 
 .header__banner {
-  background-image: url("/gigeo/assets/img/image-banner.png");
+  background-image: url("/assets/img/image-banner.png");
   height: 110px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7844,7 +7844,7 @@ body {
   display: flex;
   flex-grow: 5; }
 .header__avatar {
-  background-image: url("/gigeo/assets/img/profile-image.png");
+  background-image: url("/assets/img/profile-image.png");
   background-size: cover;
   height: 80px;
   width: 80px;
@@ -7870,7 +7870,7 @@ body {
 
 .main__title {
   font-size: 30px;
-  justify-content: center;
+  justify-content: left;
   text-align: center; }
 .main__preview {
   height: 200px;
