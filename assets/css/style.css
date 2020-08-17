@@ -7817,7 +7817,7 @@ body {
 .button {
   border: 0;
   color: #fff;
-  font-size: medium;
+  font-size: small;
   margin-left: 10px;
   padding: 15px; }
   .button--red {
@@ -7842,7 +7842,7 @@ body {
   padding: 0 40px; }
 .header__info {
   display: flex;
-  flex-grow: 5; }
+  flex-grow: 3; }
 .header__avatar {
   background-image: url("/assets/img/profile-image.png");
   background-size: cover;
@@ -7858,7 +7858,7 @@ body {
   margin-left: 15px; }
 .header__name {
   font-weight: 30px; }
-.headerfollowers {
+.header__followers {
   color: #888;
   font-size: 16px; }
 .header__actions {

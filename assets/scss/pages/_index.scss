@@ -1,5 +1,4 @@
 
-
 .header{
     &__banner{
         background-image:url("/assets/img/image-banner.png");
@@ -9,7 +8,7 @@
         background-position: center;
 
         @include respond-to($min-laptop){
-            height: 250px;
+        height: 250px;
         }
     }
 
@@ -20,9 +19,10 @@
         height:100px;
         padding: 0 40px;
     }
+    
     &__info{
         display: flex;
-        flex-grow: 5;
+        flex-grow: 3;
     }
 
     &__avatar{
@@ -47,15 +47,13 @@
 
     }
 
-    &followers{
+    &__followers{
         color: $gray;
         font-size: $font-size-medium;
     }
 
     &__actions{
         display:none;
-
-
         @include respond-to($min-laptop){
         display: flex;
         justify-content: flex-end;
